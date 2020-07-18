@@ -1,0 +1,33 @@
+body {
+    background-color: #E7EBEE;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, Tahoma, sans-serif;
+    width: 100%;
+}
+.site-logo {
+    width: 125px;
+}
+.post-title{text-align: center;}
+.btn-form-action {
+    width: 125px;
+}
+.form-action-group {
+    text-align: center;
+    border-top: solid #eaeaea 1px;
+	padding-top: 15px;
+}
+.form-group {
+    margin-bottom: 5px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.form-group label.required:after {
+  content : "*";
+  color : #ff7575;
+}
+.form-group label.error {
+    margin: 0px;
+    color: #d44c4c;
+    font-size: 10px;
+}
+.dup-chek-details{ font-size: 12px; font-weight: bold; }
