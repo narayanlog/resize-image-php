@@ -28,7 +28,7 @@
          <section class="container">
             <div class="form-group custom-input-space has-feedback">
                <div class="page-heading">
-                  <h3 class="post-title">Upload and Resize an Image with PHP</h3>
+                  <h3 class="post-title">Upload and Resize an Image Using PHP - DevOpsSchool</h3>
                </div>
                <div class="page-body clearfix">
                   <div class="row">
@@ -122,13 +122,13 @@
                                  	?>
                               <div class="alert icon-alert with-arrow alert-success form-alter" role="alert">
                                  <i class="fa fa-fw fa-check-circle"></i>
-                                 <strong> Note !</strong> <span class="success-message">Image Resize Successfully </span>
+                                 <strong> Success !</strong> <span class="success-message">Image Resize Successfully </span>
                               </div>
                               <hr>
                               <div class="row">
                                  <div class="col-md-4">
                                     <img class="img-rounded img-responsive" src="<?php echo $uploadPath."thump_".$resizeFileName.'.'. $fileExt; ?>" width="<?php echo $new_width; ?>" height="<?php echo $new_height; ?>" >
-                                    <h4><b>Thump Image</b></h4>
+                                    <h4><b>Resize Image</b></h4>
                                     <a href="<?php echo $uploadPath."thump_".$resizeFileName.'.'. $fileExt; ?>" download class="btn btn-danger"><i class="fa fa-download"></i> Download </a href="">
                                  </div>
                                  <div class="col-md-8">
